@@ -16,7 +16,7 @@ Citizen.CreateThread(function()
         end
 
         if IsControlJustPressed(0,0xB2F377E8) then -- F KEY
-			Citizen.Wait(500)
+			Wait(500)
 			SetRelationshipBetweenGroups(1, `PLAYER`, `PLAYER`)
 			active = false
 			timer = 0
